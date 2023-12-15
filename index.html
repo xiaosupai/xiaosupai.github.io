@@ -18,7 +18,7 @@
     <link href="https://fonts.cdnfonts.com/css/opposans" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <script src="js/clipboard.min.js"></script>
-<!--代码分割线-->
+    <!--代码分割线-->
     <script>
         function toUrl(url, msg = '') {
             if (msg) {
@@ -47,6 +47,16 @@
             document.body.removeChild(input);
             alert("链接已经被复制到剪贴板中");
         }
+        function copyText3() {
+            var text = "https://gitee.com/goban/tvos/raw/master/TVOS.json";
+            var input = document.createElement('input');
+            input.setAttribute('value', text);
+            document.body.appendChild(input);
+            input.select();
+            document.execCommand('copy');
+            document.body.removeChild(input);
+            alert("链接已经被复制到剪贴板中");
+        }
     </script>
     <!--代码分割线-->
 </head>
@@ -59,15 +69,15 @@
             <div class="header">
                 <img alt="" src="img/1.png" style="margin: 0 auto; border-radius: 50%; width: 100px; height: 100px;">
             </div>
-<!--代码分割线-->
+            <!--代码分割线-->
             <div class="top-line"></div>
             <div class="panel-content">
                 <div class="panel-left">
-<!--代码分割线-->
+                    <!--代码分割线-->
                     <span class="p2span">世味年来薄似纱，谁令骑马客京华？</span>
                     <div class="top-line nomp"></div>
                     </p>
-<!--代码分割线-->
+                    <!--代码分割线-->
                     <div class="title-info">
                         <div class="title-i">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="">
@@ -355,6 +365,32 @@
                             </div>
                             <div class="top-line nomp"></div>
                             <!--代码分割线-->
+                            <div class="row">
+                                <div class="icon-text">
+                                    <svg class="ico" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns=" ">
+                                        <rect width="34" height="34" rx="17" fill="#74B969"></rect>
+                                        <g clip-path="url(#clip0_170_20832)">
+                                            <path
+                                                d="M22.9503 17.8499H11.0503V23.7999H22.9503V17.8499ZM22.9503 16.1499C22.9503 14.5719 22.3235 13.0585 21.2076 11.9427C20.0918 10.8268 18.5784 10.1999 17.0003 10.1999C15.4223 10.1999 13.9089 10.8268 12.7931 11.9427C11.6772 13.0585 11.0503 14.5719 11.0503 16.1499H22.9503ZM12.225 10.1727C13.5797 9.08735 15.2645 8.49718 17.0003 8.49995C18.8066 8.49995 20.4666 9.12555 21.7756 10.1727L23.0107 8.9377L24.2126 10.1396L22.9775 11.3746C24.0629 12.7293 24.6531 14.4141 24.6503 16.1499V24.6499C24.6503 24.8754 24.5608 25.0916 24.4014 25.251C24.242 25.4104 24.0258 25.4999 23.8003 25.4999H10.2003C9.97491 25.4999 9.75871 25.4104 9.5993 25.251C9.4399 25.0916 9.35034 24.8754 9.35034 24.6499V16.1499C9.35034 14.3437 9.97594 12.6836 11.0231 11.3746L9.78809 10.1404L10.99 8.93855L12.225 10.1736V10.1727ZM14.4503 14.4499C14.2249 14.4499 14.0087 14.3604 13.8493 14.201C13.6899 14.0416 13.6003 13.8254 13.6003 13.5999C13.6003 13.3745 13.6899 13.1583 13.8493 12.9989C14.0087 12.8395 14.2249 12.7499 14.4503 12.7499C14.6758 12.7499 14.892 12.8395 15.0514 12.9989C15.2108 13.1583 15.3003 13.3745 15.3003 13.5999C15.3003 13.8254 15.2108 14.0416 15.0514 14.201C14.892 14.3604 14.6758 14.4499 14.4503 14.4499ZM19.5503 14.4499C19.3249 14.4499 19.1087 14.3604 18.9493 14.201C18.7899 14.0416 18.7003 13.8254 18.7003 13.5999C18.7003 13.3745 18.7899 13.1583 18.9493 12.9989C19.1087 12.8395 19.3249 12.7499 19.5503 12.7499C19.7758 12.7499 19.992 12.8395 20.1514 12.9989C20.3108 13.1583 20.4003 13.3745 20.4003 13.5999C20.4003 13.8254 20.3108 14.0416 20.1514 14.201C19.992 14.3604 19.7758 14.4499 19.5503 14.4499Z"
+                                                fill="white"></path>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_170_20832">
+                                                <rect width="20.4" height="20.4" fill="white"
+                                                    transform="translate(6.80005 6.79999)"></rect>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <p class="p1">TVBOX订阅<span class="p1span">多仓</span></p>
+                                    <p class="p2">超多线路</p>
+                                </div>
+
+                                <a href="javascript:;" onclick="copyText3()" class="btn-down">
+                                    点击复制
+                                </a>
+                            </div>
+                            <div class="top-line nomp"></div>
+                            <!--代码分割线-->
 
                             <div class="row">
                                 <div class="icon-text">
@@ -399,7 +435,7 @@
                             <div class="title-i">
                             </div>
                             <div class="title-t">
-                                加入QQ内部成员
+                                加入QQ内部成员（收费）
                             </div>
                         </div>
                         <div class="panel-box">
