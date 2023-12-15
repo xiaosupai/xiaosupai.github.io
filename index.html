@@ -25,12 +25,28 @@
             }
             return window.location = url;
         }
-
-        function copyBtn() {
-            new ClipboardJS('.btn', { text: function (trigger) { return 'https://jihulab.com/Bin1/tvos/-/raw/master/svip.txt'; } });
-            alert('复制订阅链接成功');
+        <!--点击按钮复制文本-->
+        function copyText() {
+            var text = "https://pan.shangui.cc/f/5PmVcA/%E7%9C%8B%E5%A5%BD%E5%89%A7.json";
+            var input = document.createElement('input');
+            input.setAttribute('value', text);
+            document.body.appendChild(input);
+            input.select();
+            document.execCommand('copy');
+            document.body.removeChild(input);
+            alert("链接已经被复制到剪贴板中");
         }
-    </script><!--!‫‭‭‭‪‪‭‫‬‭‪‭‫‬‬‭‪‬‬‏‬‫‭‪-->
+        function copyText2() {
+            var text = "链接已经被复制到剪贴板中https://pan.shangui.cc/f/YLj6ty/%E7%88%B1%E7%9C%8B%E5%89%A7.json";
+            var input = document.createElement('input');
+            input.setAttribute('value', text);
+            document.body.appendChild(input);
+            input.select();
+            document.execCommand('copy');
+            document.body.removeChild(input);
+            alert("链接已经被复制到剪贴板中");
+        }
+    </script><!--函数/复制‫‭‭‭‪‪‭‫‬‭‪‭‫‬‬‭‪‬‬‏‬‫‭‪-->
 </head>
 
 <body>
@@ -143,8 +159,8 @@
 
 
                     </div>
-
-
+                    <!--第一板块结束-->
+                    <!--第二板块开始-->
                     <div class="panel-right">
                         <div class="title-info">
                             <div class="title-i">
@@ -295,12 +311,10 @@
                                         </defs>
                                     </svg>
                                     <p class="p1">TVBOX订阅<span class="p1span">4K源</span></p>
-                                    <p class="p2">右键复制链接</p>
+                                    <p class="p2">点击复制链接</p>
                                 </div>
 
-                                <a href="javascript:;"
-                                    onclick="toUrl('https://pan.shangui.cc/f/5PmVcA/%E7%9C%8B%E5%A5%BD%E5%89%A7.json')"
-                                    class="btn-down">
+                                <a href="javascript:;" onclick="copyText()" class="btn-down">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="">
                                         <g clip-path="url(#clip0_170_20780)">
                                             <path
@@ -335,12 +349,10 @@
                                         </defs>
                                     </svg>
                                     <p class="p1">TVBOX订阅<span class="p1span">备用</span></p>
-                                    <p class="p2">右键复制链接</p>
+                                    <p class="p2">点击复制链接</p>
                                 </div>
 
-                                <a href="javascript:;"
-                                    onclick="toUrl('https://pan.shangui.cc/f/YLj6ty/%E7%88%B1%E7%9C%8B%E5%89%A7.json')"
-                                    class="btn-down">
+                                <a href="javascript:;" onclick="copyText2()" class="btn-down">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="">
                                         <g clip-path="url(#clip0_170_20780)">
                                             <path
@@ -416,12 +428,13 @@
                         <div class="top-line nomp"></div>
 
                     </div>
-
-                </div>
+                    <!--第二板块结束-->
+                </div>               
+                <!--底部文本开始-->
                 <div class="foot">
                     ©2024寒烟&言溪. All Rights Reserved
                 </div>
-
+                <!--底部文本结束-->
             </div>
         </div>
         <script>
