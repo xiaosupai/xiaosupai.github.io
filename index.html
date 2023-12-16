@@ -61,6 +61,26 @@
         }
     </script>
     <!--代码分割线-->
+    <style>
+        .marquee {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+            animation: marquee 10s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translate(100%, 0);
+            }
+
+            100% {
+                transform: translate(-100%, 0);
+            }
+        }
+    </style>
+    <!--代码分割线-->
 </head>
 
 <body>
@@ -68,6 +88,9 @@
         <div class="page-mark">
         </div>
         <div class="page-center">
+            <div class="marquee">
+                <p>温馨提示：本站仅作为社群导航，获取资源可加入下方QQ频道、QQ群和Telegram频道！</p>
+            </div>
             <div class="header">
                 <img alt="" src="img/头像.png" style="margin: 0 auto; border-radius: 50%; width: 100px; height: 100px;">
             </div>
