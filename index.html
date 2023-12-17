@@ -33,7 +33,7 @@
     <title>点击按钮复制文本</title>
     <script>
         <!--点击按钮复制文本-->
-        function 不维护链接() {
+        function 不维护多仓() {
             var text = "https://pan.shangui.cc/f/enbgiQ/%E5%B0%8F%E9%85%A5%E6%B4%BE%E5%A4%9A%E4%BB%93.json";
             var input = document.createElement('input');
             input.setAttribute('value', text);
@@ -46,15 +46,15 @@
     </script>
     <title>发送邮件</title>
     <script>
-        function copyEmail() {
+        function 复制邮箱() {
             var email = "3295532395@qq.com";
             navigator.clipboard.writeText(email);
         }
-        function sendMail() {
+        function 发送邮件() {
             window.location.href = "mailto:3295532395@qq.com";
         }
     </script>
-    <title>密码验证</title>
+    <title>密码验证复制链接</title>
     <script>
         function checkPassword() {
             var password = prompt("请输入高级成员密码:");
@@ -73,6 +73,29 @@
             }
         }
     </script>
+    <!--代码分割线-->
+    <title>密码验证跳转网页</title>
+    <script>
+        function 鲸鱼TV() {
+            var password = prompt("请输入高级成员密码:");
+            if (password === "11111111") {
+                window.location.href = "https://www.example.com/secret-page";
+            } else {
+                alert("密码错误，请重新输入!");
+            }
+        }
+    </script>
+    <script>
+        function 追剧盒() {
+            var password = prompt("请输入高级成员密码:");
+            if (password === "11111111") {
+                window.location.href = "https://www.example.com/secret-page";
+            } else {
+                alert("密码错误，请重新输入!");
+            }
+        }
+    </script>
+    <!--代码分割线-->
     <!--代码分割线-->
 </head>
 
@@ -519,7 +542,7 @@
                                             多线路可切换
                                         </p>
                                     </div>
-                                    <a href="javascript:;" onclick="不维护链接()" class="btn-down">
+                                    <a href="javascript:;" onclick="不维护多仓()" class="btn-down">
                                         点击复制
                                     </a>
                                 </div>
@@ -562,13 +585,17 @@
                                                 style="margin: 0 auto; border-radius: 50%; width: 25px; height: 25px;">
                                             追剧盒2.0
                                             <span class="p2span">
-                                                安卓追剧app|高级成员专属
+                                                追剧app|高级成员专属
                                             </span>
                                         </p>
                                         <p class="p2">
                                             自建源 | 内置340+站点+直播
                                         </p>
                                     </div>
+                                    <a onclick="追剧盒()" class="btn-down">
+                                        <img alt="" src="img/下载图标.png"
+                                            style="margin: 0 auto; border-radius: 50%; width: 25px; height: 25px;">
+                                    </a>
                                 </div>
                                 <div class="top-line nomp"></div>
                                 <!--代码分割线-->
@@ -586,6 +613,10 @@
                                             自建源 | 内置340+站点+直播
                                         </p>
                                     </div>
+                                    <a onclick="鲸鱼TV()" class="btn-down">
+                                        <img alt="" src="img/下载图标.png"
+                                            style="margin: 0 auto; border-radius: 50%; width: 25px; height: 25px;">
+                                    </a>
                                 </div>
                                 <!--代码分割线-->
                                 <div class="top-line nomp"></div>
@@ -631,8 +662,7 @@
                                         <p class="p1">电报：https://t.me/hanyan111</p>
                                         </p>
                                     </div>
-                                    <a href="javascript:;" onclick="sendMail()" ; onclick="copyEmail()"
-                                        class="btn-down">
+                                    <a href="javascript:;" onclick="发送邮件()" ; onclick="复制邮箱()" class="btn-down">
                                         发送邮件
                                     </a>
                                 </div>
