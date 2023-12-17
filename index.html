@@ -41,7 +41,7 @@
             input.select();
             document.execCommand('copy');
             document.body.removeChild(input);
-            alert("链接已复制成功!");
+            alert("文本已复制成功!");
         }
     </script>
     <title>发送邮件</title>
@@ -59,7 +59,7 @@
         function checkPassword() {
             var password = prompt("请输入高级成员密码:");
 
-            if (password === "hanyan") {
+            if (password === "9527") {
                 var text = "https://gitee.com/goban/tvos/raw/master/TVOS.json";
                 var input = document.createElement('input');
                 input.setAttribute('value', text);
@@ -67,7 +67,7 @@
                 input.select();
                 document.execCommand('copy');
                 document.body.removeChild(input);
-                alert("链接已复制成功!");
+                alert("文本已复制成功!");
             } else {
                 alert("密码错误，请重新输入!");
             }
