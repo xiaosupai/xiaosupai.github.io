@@ -39,6 +39,14 @@
             document.body.removeChild(input);
             alert("链接已经被复制到剪贴板中");
         }
+
+        function copyEmail() {
+            var email = "3295532395@qq.com";
+            navigator.clipboard.writeText(email);
+        }
+        function sendMail() {
+            window.location.href = "mailto:3295532395@qq.com";
+        }
     </script>
     <!--代码分割线-->
 </head>
@@ -510,7 +518,7 @@
                                         </p>
                                         </p>
                                         <p class="p2">
-                                        获取：安卓破解软件、Win破解软件、Windows密钥、Office秘钥、正版软件序列号、学习教程课程 等优质资源！ -- 已持续更新资源1.5年~
+                                            获取：安卓破解软件、Win破解软件、Windows密钥、Office秘钥、正版软件序列号、学习教程课程 等优质资源！ -- 已持续更新资源1.5年~
                                         </p>
                                         </p>
                                         <p class="p2" style="color:rgb(6, 227, 113);">
@@ -555,7 +563,7 @@
                                     </div>
                                 </div>
                                 <!--代码分割线-->
-                            </div>                            
+                            </div>
                             <!--代码分割线-->
 
                             <div class="title-info">
@@ -578,6 +586,10 @@
                                         <p class="p1">电报：https://t.me/hanyan111</p>
                                         </p>
                                     </div>
+                                    <a href="javascript:;" onclick="sendMail()" ; onclick="copyEmail()"
+                                        class="btn-down">
+                                        发送邮件
+                                    </a>
                                 </div>
                             </div>
                             <!--代码分割线-->
