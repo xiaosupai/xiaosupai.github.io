@@ -230,6 +230,13 @@
         }
     </style>
     <!--代码分割线-->
+    <title>点击图片刷新网页</title>
+    <script>
+        function refreshPage() {
+            location.reload();
+        }
+    </script>
+    <!--代码分割线-->
 </head>
 
 <body>
@@ -239,7 +246,7 @@
         <div class="page-center">
 
             <div class="header">
-                <img alt="Your Image" src="img/头像.png"
+                <img alt="Your Image" src="img/头像.png" onclick="refreshPage()"
                     style="margin: 0 auto; border-radius: 50%; width: 100px; height: 100px;">
             </div>
             <!--代码分割线-->
