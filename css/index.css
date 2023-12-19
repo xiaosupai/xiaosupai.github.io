@@ -1,5 +1,5 @@
 body {
-  font-family: 'OPPOSans', -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+  font-family: 'MiSans', -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
 }
 
 
@@ -16,6 +16,7 @@ body {
   background: url(../img/横屏背景.jpeg) no-repeat center;
   background-size: cover;
 }
+
 .page-center {
   display: flex;
   width: 100%;
@@ -24,7 +25,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 40px 29px;
-  padding-bottom: 24px;
+  padding-bottom: 10px;
   position: relative;
   z-index: 3;
 }
@@ -47,7 +48,7 @@ body {
   width: 100%;
   max-width: 700px;
   height: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   position: relative;
   display: flex;
 }
@@ -58,7 +59,7 @@ body {
   height: 1px;
   background: #fff;
   opacity: 0.08;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 
@@ -70,14 +71,16 @@ body {
   gap: 14px;
   position: relative;
 }
+
 .t-line {
   position: absolute;
   width: 58px;
   height: 3px;
   left: 37px;
-  top: 22px;
+  top: 15px;
   background: #00C2FF;
 }
+
 .title-t {
   font-weight: 400;
   font-size: 16px;
@@ -114,10 +117,11 @@ body {
   justify-content: space-between;
 }
 
-.text > p {
+.text>p {
   color: #fff;
   margin: 0px;
 }
+
 .p1 {
   font-size: 14px;
   line-height: 18px;
@@ -127,6 +131,7 @@ body {
   align-items: center;
   margin-top: 0px;
 }
+
 .p1span {
   display: flex;
   flex-direction: row;
@@ -142,7 +147,7 @@ body {
   margin-left: 4px;
 }
 
-.p1span2{
+.p1span2 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -156,6 +161,7 @@ body {
   letter-spacing: 0.07em;
   margin-left: 4px;
 }
+
 .p2span {
   display: flex;
   flex-direction: row;
@@ -182,20 +188,24 @@ body {
 .icon-text {
   display: flex;
 }
+
 .ico {
   margin-right: 8px;
 }
-.icon-text > .p1{
+
+.icon-text>.p1 {
   color: #fff;
   line-height: 34px;
   margin: 0px;
 }
+
 .text-group {
   display: flex;
   color: #fff;
   flex-direction: column;
   align-items: flex-start;
 }
+
 .p3 {
   font-size: 12px;
   line-height: 16px;
@@ -204,13 +214,14 @@ body {
   opacity: 0.4;
   margin: 0px;
 }
+
 .btn-down {
   display: flex;
   padding: 6px 16px;
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 31px;
-  font-size:12px;
+  font-size: 12px;
   line-height: 16px;
   color: #fff;
 }
@@ -218,15 +229,19 @@ body {
 a {
   text-decoration: none;
 }
+
 a:visited {
   opacity: 0.8;
 }
+
 a:active {
   opacity: 0.8;
 }
+
 a:hover {
   opacity: 0.8;
 }
+
 .link-group {
   display: flex;
   gap: 8px;
@@ -244,6 +259,7 @@ a:hover {
   letter-spacing: 0.07em;
   color: #FFF;
 }
+
 .ercode {
   height: 130px;
   bottom: 0px;
@@ -258,7 +274,8 @@ a:hover {
   right: 0px;
   left: unset;
 }
-.ercode > p {
+
+.ercode>p {
   margin: 0px;
   height: 20px;
   font-size: 14px;
@@ -268,6 +285,7 @@ a:hover {
   margin-bottom: 10px;
   margin-top: 28px;
 }
+
 .ercode-box {
   display: flex;
   padding: 32px;
@@ -293,6 +311,7 @@ a:hover {
   color: #FFFFFF;
   margin-top: 8px;
 }
+
 .foot {
   height: 20px;
   font-size: 14px;
@@ -312,6 +331,7 @@ a:hover {
 .panel-left {
   width: 680px;
 }
+
 .panel-right {
   width: 680px;
 
@@ -331,6 +351,7 @@ a:hover {
     background-image: unset;
     background: linear-gradient(179.98deg, #001958 0.01%, #4F5079 99.99%);
   }
+
   .page-center {
     display: flex;
     width: 100%;
@@ -383,6 +404,7 @@ a:hover {
     gap: 14px;
     position: relative;
   }
+
   .t-line {
     position: absolute;
     width: 58px;
@@ -391,6 +413,7 @@ a:hover {
     top: 22px;
     background: #00C2FF;
   }
+
   .title-t {
     font-weight: 400;
     font-size: 16px;
@@ -427,10 +450,11 @@ a:hover {
     justify-content: space-between;
   }
 
-  .text > p {
+  .text>p {
     color: #fff;
     margin: 0px;
   }
+
   .p1 {
     font-size: 14px;
     line-height: 18px;
@@ -440,6 +464,7 @@ a:hover {
     align-items: center;
     margin-top: 0px;
   }
+
   .p1span {
     display: flex;
     flex-direction: row;
@@ -481,20 +506,24 @@ a:hover {
   .icon-text {
     display: flex;
   }
+
   .ico {
     margin-right: 8px;
   }
-  .icon-text > .p1{
+
+  .icon-text>.p1 {
     color: #fff;
     line-height: 34px;
     margin: 0px;
   }
+
   .text-group {
     display: flex;
     color: #fff;
     flex-direction: column;
     align-items: flex-start;
   }
+
   .p3 {
     font-size: 12px;
     line-height: 16px;
@@ -503,13 +532,14 @@ a:hover {
     opacity: 0.4;
     margin: 0px;
   }
+
   .btn-down {
     display: flex;
     padding: 6px 16px;
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 31px;
-    font-size:12px;
+    font-size: 12px;
     line-height: 16px;
     color: #fff;
   }
@@ -517,6 +547,7 @@ a:hover {
   a {
     text-decoration: none;
   }
+
   .link-group {
     display: flex;
     gap: 8px;
@@ -550,7 +581,8 @@ a:hover {
     right: 0px;
     left: unset;
   }
-  .ercode > p {
+
+  .ercode>p {
     margin: 0px;
     height: 20px;
     font-size: 14px;
@@ -572,6 +604,7 @@ a:hover {
     text-shadow: 0px 1px 2px #00324C;
     margin-top: 30px;
   }
+
   .panel-content {
     display: flex;
     flex-direction: column;
@@ -582,12 +615,9 @@ a:hover {
   .panel-left {
     width: 100%;
   }
+
   .panel-right {
     width: 100%;
 
   }
 }
-/*
-   绿色资源网
-   https://www.Ｈcw3.cn/
-*/
