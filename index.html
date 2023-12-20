@@ -30,20 +30,6 @@
             return window.location = url;
         }
     </script>
-    <title>点击按钮复制文本</title>
-    <script>
-        <!--点击按钮复制文本-->
-        function 不维护多仓() {
-            var text = "https://pan.shangui.cc/f/enbgiQ/%E5%B0%8F%E9%85%A5%E6%B4%BE%E5%A4%9A%E4%BB%93.json";
-            var input = document.createElement('input');
-            input.setAttribute('value', text);
-            document.body.appendChild(input);
-            input.select();
-            document.execCommand('copy');
-            document.body.removeChild(input);
-            alert("文本已复制成功!");
-        }
-    </script>
     <title>发送邮件</title>
     <script>
         function 复制邮箱() {
@@ -54,12 +40,12 @@
             window.location.href = "mailto:3295532395@qq.com";
         }
     </script>
-    <title>密码验证打开子页面</title>
+    <title>密码验证打开子网页</title>
     <script>
         function 订阅() {
             var password = prompt("🍭🍭🍭请输入正确的密码，如果没有请加群获取！");
 
-            if (password === "11111111") {
+            if (password === "111111") {
                 window.open('./Subpages/subscribe.html', '_blank');
             } else {
                 alert("🍭🍭🍭密码错误，请重新输入!");
@@ -72,14 +58,9 @@
         function 高级订阅() {
             var password = prompt("🍭🍭🍭请输入正确的高级会员密码：");
 
-            if (password === "11111111") {
+            if (password === "1111xxxx") {
                 var text = "https://pd.qq.com/s/1oqtpdvbd";
-                var input = document.createElement('input');
-                input.setAttribute('value', text);
-                document.body.appendChild(input);
-                input.select();
-                document.execCommand('copy');
-                document.body.removeChild(input);
+                navigator.clipboard.writeText(text);
                 alert("文本已复制成功!");
             } else {
                 alert("🍭🍭🍭密码错误，请重新输入!");
@@ -87,21 +68,11 @@
         }
     </script>
     <!--代码分割线-->
-    <title>密码验证跳转网页</title>
+    <title>密码验证跳转链接</title>
     <script>
-        function 鲸鱼TV() {
+        function 会员() {
             var password = prompt("🍭🍭🍭请输入正确的高级会员密码：");
-            if (password === "11111111") {
-                window.location.href = "https://pd.qq.com/s/1oqtpdvbd";
-            } else {
-                alert("🍭🍭🍭密码错误，请重新输入!");
-            }
-        }
-    </script>
-    <script>
-        function 追剧盒() {
-            var password = prompt("🍭🍭🍭请输入正确的高级会员密码：");
-            if (password === "11111111") {
+            if (password === "1111xxxx") {
                 window.location.href = "https://pd.qq.com/s/1oqtpdvbd";
             } else {
                 alert("🍭🍭🍭密码错误，请重新输入!");
@@ -588,65 +559,25 @@
                             <!--代码分割线-->
                             <div class="row">
                                 <div class="text">
-                                    <p class="p1"><img <img alt="" src="img/安卓图标.png"
-                                            style="margin: 0 auto; border-radius: 50%; width: 25px; height: 25px;">
-                                        追剧盒2.0
-                                        <span class="p2span">
-                                            追剧app|专属
-                                        </span>
+                                                                    <span class="p2span">
+                                                                        高级成员专属|安卓&TV免费追剧app
+                                                                    </span>
+                                    <p class="p2">
+                                        追剧盒2.0、鲸鱼TV2.0、多仓源
                                     </p>
                                     <p class="p2">
                                         自建源 | 内置340+站点+直播
                                     </p>
+                                        <p class="p2">
+                                            自收集 | 整理500+订阅源线路
+                                        </p>
                                 </div>
-                                <a onclick="追剧盒()" class="btn-down">
+                                <a onclick="会员()" class="btn-down">
                                     <img alt="" src="img/下载图标.png"
                                         style="margin: 0 auto; border-radius: 50%; width: 25px; height: 25px;">
                                 </a>
-                            </div>
-                            <div class="top-line nomp"></div>
-                            <!--代码分割线-->
-                            <!--代码分割线-->
-                            <div class="row">
-                                <div class="text">
-                                    <p class="p1"><img <img alt="" src="img/安卓图标.png"
-                                            style="margin: 0 auto; border-radius: 50%; width: 25px; height: 25px;">
-                                        鲸鱼TV
-                                        <span class="p2span">
-                                            TV追剧app|专属
-                                        </span>
-                                    </p>
-                                    <p class="p2">
-                                        自建源 | 内置340+站点+直播
-                                    </p>
-                                </div>
-                                <a onclick="鲸鱼TV()" class="btn-down">
-                                    <img alt="" src="img/下载图标.png"
-                                        style="margin: 0 auto; border-radius: 50%; width: 25px; height: 25px;">
-                                </a>
-                            </div>
-                            <!--代码分割线-->
-                            <div class="top-line nomp"></div>
-                            <!--代码分割线-->
-                            <div class="row">
-                                <div class="text">
-                                    <p class="p1"><img alt="" src="img/订阅图标.png"
-                                            style="margin: 0 auto; border-radius: 50%; width: 25px; height: 25px;">
-                                        tvbox订阅
-                                        <span class="p1span">
-                                            多仓 | 专属
-                                        </span>
-                                    </p>
-                                    <p class="p2">
-                                        自维护 | 多接口线路合集
-                                    </p>
-                                </div>
-                                <a href="javascript:;" onclick="高级订阅()" class="btn-down">
-                                    <img alt="" src="img/立即复制.png"
-                                        style="margin: 0 auto; border-radius: 50%; width: 25px; height: 25px;">
-                                </a>
-                            </div>
-                            <!--代码分割线-->
+                            </div>                       
+
                         </div>
                         <!--代码分割线-->
 
