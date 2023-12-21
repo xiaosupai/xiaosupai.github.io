@@ -1242,7 +1242,7 @@ a cite {
     margin-left: 100%
 }
 
-@media screen and (max-width:767.98px) {
+@media screen and (max-width: 767.98px) {
     .layui-container {
         padding: 0 15px
     }
@@ -1264,7 +1264,7 @@ a cite {
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .layui-container {
         width: 720px
     }
@@ -1397,7 +1397,7 @@ a cite {
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width: 992px) {
     .layui-container {
         width: 960px
     }
@@ -1530,7 +1530,7 @@ a cite {
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
     .layui-container {
         width: 1150px
     }
@@ -3037,7 +3037,7 @@ a cite {
     margin-left: 110px
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width: 450px) {
     .layui-form-item .layui-form-label {
         text-overflow: ellipsis;
         overflow: hidden;
@@ -3371,13 +3371,13 @@ a cite {
 
 .layui-flow-more a i {
     font-size: 30px;
-    color: #eee
+    color: #737383
 }
 
 .layui-table {
     width: 100%;
     margin: 10px 0;
-    background-color: #eee;
+    background-color: #fff;
     color: #5f5f5f
 }
 
@@ -3388,7 +3388,7 @@ a cite {
 
 .layui-table th {
     text-align: left;
-    font-weight: 200
+    font-weight: 400
 }
 
 .layui-table tbody tr:hover,
@@ -3402,7 +3402,7 @@ a cite {
 .layui-table-total,
 .layui-table-total tr,
 .layui-table[lay-even] tr:nth-child(even) {
-    background-color: #eee
+    background-color: #fafafa
 }
 
 .layui-table td,
@@ -3427,9 +3427,9 @@ a cite {
 .layui-table th {
     position: relative;
     padding: 9px 15px;
-    min-height: 10px;
+    min-height: 20px;
     line-height: 20px;
-    font-size: 12px
+    font-size: 14px
 }
 
 .layui-table[lay-skin=line] td,
@@ -3455,7 +3455,7 @@ a cite {
 
 .layui-table[lay-size=lg] td,
 .layui-table[lay-size=lg] th {
-    padding-top: 5px;
+    padding-top: 15px;
     padding-right: 30px;
     padding-bottom: 15px;
     padding-left: 30px
@@ -5527,7 +5527,7 @@ body .layui-util-face .layui-layer-content {
 }
 
 .layui-colorpicker-main-pre {
-    padding-top: 2px;
+    padding-top: 7px;
     font-size: 0
 }
 
