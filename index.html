@@ -30,18 +30,6 @@
             return window.location = url;
         }
     </script>
-    <title>密码验证打开子网页</title>
-    <script>
-        function 订阅() {
-            var password = prompt("🍭🍭🍭请输入正确的密码，如果没有请加群获取！");
-
-            if (password === "1212") {
-                window.open('./Subpages/subscribe.html', '_blank');
-            } else {
-                alert("🍭🍭🍭密码错误，请重新输入!");
-            }
-        }
-    </script>
     <!--代码分割线-->
     <title>密码验证复制链接</title>
     <script>
@@ -465,7 +453,8 @@
                                         收集整理 | 多线路可选
                                     </p>
                                 </div>
-                                <a href="javascript:;" onclick="订阅()" class="btn-down">
+                                <a href="javascript:;" onclick="window.open('./Subpages/subscribe.html', '_blank');"
+                                    class="btn-down">
                                     <img alt="" src="img/立即复制.png"
                                         style="margin: 0 auto; border-radius: 50%; width: 25px; height: 25px;">
                                 </a>
@@ -488,13 +477,14 @@
                                         不维护 | 多个软件多线路
                                     </p>
                                 </div>
-                                <a href="https://pan.shangui.cc/s/bejSM" target="_blank" class="btn-down">
+                                <a href="javascript:;" onclick="window.open('./Subpages/apkdown.html', '_blank')" ;
+                                    class="btn-down">
                                     <img alt="" src="img/下载.png"
                                         style="margin: 0 auto; border-radius: 50%; width: 25px; height: 25px;">
                                 </a>
                             </div>
                             <!--代码分割线-->
-                           
+
                         </div>
                         <!--代码分割线-->
 
@@ -567,7 +557,8 @@
                                     <p class="p1">telegram：t.me/hanyan111</p>
                                     </p>
                                 </div>
-                                <a href="javascript:;" onclick="window.location.href='mailto:3295532395@qq.com'" class="btn-down">
+                                <a href="javascript:;" onclick="window.location.href='mailto:3295532395@qq.com'"
+                                    class="btn-down">
                                     发送邮件
                                 </a>
                             </div>
@@ -592,7 +583,7 @@
         </div>
 
     </div>
-<!--代码分割线-->
+    <!--代码分割线-->
     </div>
 </body>
 
