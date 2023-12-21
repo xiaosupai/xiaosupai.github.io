@@ -457,17 +457,6 @@
 			background-image: linear-gradient(45deg, #f4433621, #ffc10729);
 		}
 	</style>
-	<title>发送邮件</title>
-	<script>
-		function 复制邮箱() {
-			var email = "3295532395@qq.com";
-			navigator.clipboard.writeText(email);
-		}
-		function 发送邮件() {
-			window.location.href = "mailto:3295532395@qq.com";
-		}
-	</script>
-	<!--代码分割线-->
 
 	<link rel="stylesheet" href="css/layui.css">
 </head>
@@ -586,7 +575,7 @@
 					</table>
 				</div>
 				<div class="profile-card-ctr">
-					<a class="profile-card__button button--orange" onclick="发送邮件()" ; onclick="复制邮箱()"
+					<a class="profile-card__button button--orange"  onclick="window.location.href='mailto:3295532395@qq.com'"
 						target="_blank">发送邮件联系反馈</a>
 				</div>
 				<div>
