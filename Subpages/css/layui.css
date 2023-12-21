@@ -49,14 +49,14 @@ table {
 h1,
 h2,
 h3 {
-    font-weight: 400
+    font-weight: 100
 }
 
 h4,
 h5,
 h6 {
     font-size: 100%;
-    font-weight: 400
+    font-weight: 100
 }
 
 button,
@@ -91,7 +91,7 @@ body {
     line-height: 1.6;
     color: #333;
     color: rgba(0, 0, 0, .85);
-    font: 14px Helvetica Neue, Helvetica, PingFang SC, Tahoma, Arial, sans-serif
+    font: 12px Helvetica Neue, Helvetica, PingFang SC, Tahoma, Arial, sans-serif
 }
 
 hr {
@@ -1410,7 +1410,7 @@ a cite {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1000px) {
     .layui-container {
         width: 960px
     }
@@ -2017,7 +2017,7 @@ a cite {
 }
 
 .layui-card-body .layui-table {
-    margin: 5px 0
+    margin: 2px 0
 }
 
 .layui-card .layui-tab {
@@ -3413,8 +3413,8 @@ a cite {
 }
 
 .layui-table th {
-    text-align: left;
-    font-weight: 400
+    text-align: center;
+    font-weight: 500
 }
 
 .layui-table tbody tr:hover,
@@ -3455,7 +3455,7 @@ a cite {
     padding: 9px 15px;
     min-height: 20px;
     line-height: 20px;
-    font-size: 14px
+    font-size: 12px
 }
 
 .layui-table[lay-skin=line] td,
@@ -3498,7 +3498,7 @@ a cite {
     padding-right: 10px;
     padding-bottom: 5px;
     padding-left: 10px;
-    font-size: 12px
+    font-size: 10px
 }
 
 .layui-table-view .layui-table[lay-size=sm] .layui-table-cell {
