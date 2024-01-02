@@ -1,8 +1,8 @@
 🌈温馨提示,#genre#
-官网xiaosupai.github.io,http://api.yujn.cn/api/zzxjj.php?type=video
-最新版1.4,http://api.yujn.cn/api/wmsc.php?type=video
-自建源, http://api.yujn.cn/api/heisis.php?type=video
-无广告,http://api.yujn.cn/api/shwd.php?type=video
+最新版本1.4,http://api.yujn.cn/api/wmsc.php?type=video
+关于App查看,http://api.yujn.cn/api/zzxjj.php?type=video
+官网下载地址, http://api.yujn.cn/api/heisis.php?type=video
+自建直播源,http://api.yujn.cn/api/shwd.php?type=video
 长期维护,https://api.yujn.cn/api/manzhan.php?type=video
 完全免费, http://api.yujn.cn/api/baisis.php?type=video
 永不收费,http://api.yujn.cn/api/xjj.php?type=video
