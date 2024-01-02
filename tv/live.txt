@@ -1,13 +1,13 @@
 🌈温馨提示,#genre#
-官网:xiaosupai.github.io,http://api.yujn.cn/api/zzxjj.php?type=video
-最新版本v1.2官网下载,http://api.yujn.cn/api/wmsc.php?type=video
-软件完全免费禁止倒卖, http://api.yujn.cn/api/baisis.php?type=video
-内置3条自建线路可切换, http://api.yujn.cn/api/heisis.php?type=video
-线路设置切换一二三线,https://api.yujn.cn/api/manzhan.php?type=video
-长期免费维护永不收费,http://api.yujn.cn/api/xjj.php?type=video
-闲鱼拼多多抖音快手,http://api.yujn.cn/api/shwd.php?type=video
-严禁倒卖和收费分享,http://api.yujn.cn/api/juhexjj.php?type=video
-更多原创软件尽在官网,http://api.yujn.cn/api/chuanda.php?type=video
+官网xiaosupai.github.io,http://api.yujn.cn/api/zzxjj.php?type=video
+最新版1.4,http://api.yujn.cn/api/wmsc.php?type=video
+自建源, http://api.yujn.cn/api/heisis.php?type=video
+无广告,http://api.yujn.cn/api/shwd.php?type=video
+长期维护,https://api.yujn.cn/api/manzhan.php?type=video
+完全免费, http://api.yujn.cn/api/baisis.php?type=video
+永不收费,http://api.yujn.cn/api/xjj.php?type=video
+严禁倒卖,http://api.yujn.cn/api/juhexjj.php?type=video
+仅供测试,http://api.yujn.cn/api/chuanda.php?type=video
 
 
 CCTV(混源),#genre#
