@@ -5828,7 +5828,7 @@
         {
             "name": "live",
             "type": 0,
-            "url": "https://gh.con.sh/https://raw.githubusercontent.com/hanyantvos/tv/main/live.txt",
+            "url": "https://xiaosupai.github.io/tv/live.txt",
             "playerType": 1,
             "ua": "okhttp/3.15",
             "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
