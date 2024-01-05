@@ -1,1 +1,1 @@
-getcount({ "count": 16, "uniq": 16, "status": 200, "server":"kms.jm33.me"});
+getcount({ "count": 16, "uniq": 16, "status": 200, "server":"windows.kms.app"});
