@@ -165,24 +165,12 @@
       "name": "🚀运输车(有跑马灯)"
     },
     {
-      "name": "🐹月光宝盒",
-      "url": "https://jihulab.com/bh666/YGBH/-/raw/main/ygbox.json"
-    },
-    {
       "name": "🐹欧歌线路",
       "url": "http://tv.nxog.top/m/111.php?ou=欧歌&mz=index2&xl=&jar=in"
     },
     {
       "name": "🐹吾爱线路",
       "url": "http://52bsj.vip:98/wuai"
-    },
-    {
-      "url": "https://jihulab.com/bh666/YGBH/-/raw/main/box原.json",
-      "name": "🌈月光宝线路"
-    },
-    {
-      "url": "https://codeberg.org/AK47/online/raw/branch/main/黑猫影视.json",
-      "name": "🦝黑猫影视"
     },
     {
       "name": "🐹云星日记",
@@ -197,11 +185,7 @@
       "name": "🐹星辰线路"
     },
     {
-      "name": "🌟香雅情🌟",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json"
-    },
-    {
-      "name": "💎agit/abc线路",
+      "name": "💎abc线路",
       "url": "https://agit.ai/n/b/raw/branch/a/b/c.json"
     },
     {
@@ -213,20 +197,8 @@
       "url": "https://szyyds.cn/tv/x.json"
     },
     {
-      "url": "https://gitee.com/ghzyw/cttv/raw/cttv-iptv/json/cttv.json",
-      "name": "🏄️刺桐线路"
-    },
-    {
       "url": "https://www.lianyingtv.com/fast/fast",
       "name": "🏄️恋影线路"
-    },
-    {
-      "url": "http://api.lotics.com",
-      "name": "🚀龙门影视"
-    },
-    {
-      "url": "https://framagit.org/lzk23559/TVRule/-/raw/main/XYQTVBox.json",
-      "name": "🚀香雅情线路"
     },
     {
       "name": "🏄胖鸭线路",
@@ -241,10 +213,6 @@
       "url": "http://rihou.vip:88/荷城茶秀"
     },
     {
-      "url": "https://jihulab.com/xiaohutx/box/-/raw/main/0.json",
-      "name": "🏄️小胡线路"
-    },
-    {
       "name": "荷城茶秀备用",
       "url": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx.json"
     },
@@ -257,48 +225,20 @@
       "url": "https://jihulab.com/yw88075/tvbox/-/raw/main/dr/js.json"
     },
     {
-      "name": "二哈",
-      "url": "https://codeberg.org/jgfx/2hacc/raw/branch/main/tvbox.json"
-    },
-    {
-      "name": "阿里采集",
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/阿里/ali.json"
-    },
-    {
       "name": "🐯精简👙",
       "url": "https://agit.ai/ddx/TVBox/raw/branch/master/t4.json"
-    },
-    {
-      "name": "🐯跑马👙",
-      "url": "https://agit.ai/ddx/TVBox/raw/branch/master/m.json"
     },
     {
       "url": "https://xn--5nqxcz3am3cb7e94xzy6aa2935d.xyz/xc.json",
       "name": "🚀星辰盒子"
     },
     {
-      "url": "https://wydgk-my.sharepoint.com/personal/liying1_wydgk_onmicrosoft_com/_layouts/15/download.aspx?UniqueId=0801f7f7-027e-4342-840e-252fb27f1d80&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvd3lkZ2stbXkuc2hhcmVwb2ludC5jb21ANzMzZThjZjAtMGIxNi00ZDAxLTg0YTktZDc3NGZhMmZiOWI0IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTcwMjQ2NjA1MiIsImV4cCI6IjE3MDI0Njk2NTIiLCJlbmRwb2ludHVybCI6IjJsYWxVRmNmcnBMV3g2bEJOYW02R2E2ZkhTSmUwT0dkUFJMTGNqUWF2Z2s9IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxNTgiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsImNpZCI6IjFxLzhBOE10cFVTbU93VnFHaDVPblE9PSIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJNRGN3TjJSa1ptSXRNV1UzWXkwMFkyWTVMV0l4WlRZdE16UTRPR0k0TW1abFpURXoiLCJhcHBfZGlzcGxheW5hbWUiOiJwYW4xIiwiZ2l2ZW5fbmFtZSI6InlpbmciLCJmYW1pbHlfbmFtZSI6ImxpIiwic2lnbmluX3N0YXRlIjoiW1wia21zaVwiXSIsImFwcGlkIjoiMjIyY2FiN2YtYTJhZi00M2ZjLWI5MjUtMTg3Yzc3ZjQ1Y2NiIiwidGlkIjoiNzMzZThjZjAtMGIxNi00ZDAxLTg0YTktZDc3NGZhMmZiOWI0IiwidXBuIjoibGl5aW5nMUB3eWRnay5vbm1pY3Jvc29mdC5jb20iLCJwdWlkIjoiMTAwMzIwMDJFNjQxQzJEQiIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAyZTY0MWMyZGJAbGl2ZS5jb20iLCJzY3AiOiJhbGxmaWxlcy53cml0ZSIsInR0IjoiMiIsImlwYWRkciI6IjIwLjE5MC4xNDQuMTcyIn0.oE9_fOrmnYuUZ-sLvSiflStMLoJDR3OjhUW4i1IM5Lo&ApiVersion=2.0",
-      "name": "🚀蚂蚁BOX"
-    },
-    {
-      "url": "https://fm.t4tv.hz.cz/json/config.json",
-      "name": "🚀TVBox"
-    },
-    {
       "url": "https://qixing.myhkw.com/tianwei/svip.json",
       "name": "🚀天微影视"
     },
     {
-      "url": "https://agit.ai/ddx/TVBox/raw/branch/master/d.json",
-      "name": "🚀未知线路"
-    },
-    {
       "url": "http://meowtv.cn/tv",
       "name": "🚀猫影视TV"
-    },
-    {
-      "url": "http://jk.tv012.top/tv1/jiekou.json",
-      "name": "🚀免费影视"
     },
     {
       "url": "https://jihulab.com/jigedos/bh/-/raw/main/ys.json",
@@ -307,14 +247,6 @@
     {
       "url": "http://124.223.177.85:88/禁止贩卖/禁止贩卖.json",
       "name": "🚀4K影院"
-    },
-    {
-      "url": "https://vip.123pan.cn/1813426277/tvbox/接口/私人影院.m3u8",
-      "name": "🚀私人影院"
-    },
-    {
-      "url": "https://codeberg.org/jgfx/1024/raw/branch/main/1102.json",
-      "name": "🚀老虎线路"
     },
     {
       "name": "拾光4K",
