@@ -389,7 +389,7 @@
       "name": "⚜️爱音乐线路"
     },
     {
-      "url": "https://jihulab.com/zhulr7765/tvbox/-/raw/main/tv.txt?ref_type=heads",
+      "url": "https://jihulab.com/zhulr7765/tvbox/-/raw/main/tv.txt",
       "name": "⚜️视频资源线路"
     },
     {
@@ -1102,7 +1102,7 @@
     },
     {
       "name": "一夫莫当",
-      "url": "http://111.67.195.139/bd/JS/jsjk.json"
+      "url": "http://yydf.540734621.xyz/yydf/yydf/bd/watson/watson.json"
     },
     {
       "name": "弹幕①",
@@ -1461,12 +1461,12 @@
       "url": "http://52bsj.vip:81/api/v3/file/get/172251/m1a6.json?sign=6efFG3R9T7W1T9pJ6sIibNthtKWVTOdMDRmTUPg1WXc%3D%3A0"
     },
     {
-      "sourceName": "影①号库",
-      "sourceUrl": "https://download.kstore.space/download/2883/PY/%E2%91%A0.txt"
+      "Name": "影①号库",
+      "Url": "https://download.kstore.space/download/2883/PY/%E2%91%A0.txt"
     },
     {
-      "sourceName": "影②号库",
-      "sourceUrl": "https://download.kstore.space/download/2883/PY/%E2%91%A1.txt"
+      "Name": "影②号库",
+      "Url": "https://download.kstore.space/download/2883/PY/%E2%91%A1.txt"
     },
     {
       "url": "https://www.agit.ai/dlee2008/13800/raw/commit/314f2c309408ef11057ddfe8f588831895c66850/cr/c18.json",
@@ -1475,6 +1475,42 @@
     {
       "url": "https://www.agit.ai/dlee2008/TVBOXZY/raw/commit/f1bd76d8b66ba95f98927c6ae8553dce196de3a7/18.json",
       "name": "星星灯灯"
+    },
+    {
+      "name": "拾光趣乐屋",
+      "url": "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/xmbjm/vip/main/vip4k.json"
+    },
+    {
+      "name": "拾光VIP",
+      "url": "https://atomgit.com/xmbjm/vip/raw/main/vip4k.json"
+    },
+    {
+      "name": "弹幕①",
+      "url": "https://gitee.com/ajin0913/xiaohei/raw/master/DM1.json"
+    },
+    {
+      "name": "弹幕②",
+      "url": "https://gitee.com/ajin0913/xiaohei/raw/master/DM2.json"
+    },
+    {
+      "name": "业余PG",
+      "url": "http://yydf.540734621.xyz/yydf/yydf/bd/pg.json"
+    },
+    {
+      "name": "香雅晴",
+      "url": "http://yydf.540734621.xyz/yydf/yydf/bd/xyq.json"
+    },
+    {
+      "name": "采集王",
+      "url": "http://yydf.540734621.xyz/yydf/yydf/bd/yydf.json"
+    },
+    {
+      "name": "天微",
+      "url": "https://qixing.myhkw.com/tvys/svip.json"
+    },
+    {
+      "name": "业余阿里",
+      "url": "http://yydf.540734621.xyz/yydf/yydf/bd/ali.json"
     },
     {
       "url": "http://111.67.196.181:80/",
