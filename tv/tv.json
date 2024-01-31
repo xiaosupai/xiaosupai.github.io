@@ -1,36 +1,8 @@
 {
   "urls": [
     {
-      "url": "https://jihulab.com/Bin1/jumibox/-/raw/main/jumi.json",
-      "name": "🌈官网1线: xiaosupai.github.io"
-    },
-    {
       "url": "https://jihulab.com/Bin1/tvos/-/raw/master/zhuiju.json",
-      "name": "🌈官网2线: xiaosupai.github.io"
-    },
-    {
-      "url": "https://pan.shangui.cc/f/yDv0SK/%E8%90%8C%E7%9B%92.json",
-      "name": "🌈萌盒"
-    },
-    {
-      "url": "https://pan.shangui.cc/f/bKaBT1/%E7%8C%AB%E7%9B%92.json",
-      "name": "🌈猫盒"
-    },
-    {
-      "url": "https://pan.shangui.cc/f/PmRXHK/%E5%89%A7%E5%9C%BAFAN.json",
-      "name": "🌈剧场FAN"
-    },
-    {
-      "url": "https://pan.shangui.cc/f/Jg8EiK/%E5%89%A7%E7%9C%8BTV.json",
-      "name": "🌈剧看TV"
-    },
-    {
-      "url": "https://pan.shangui.cc/f/YLj6ty/%E7%88%B1%E7%9C%8B%E5%89%A7.json",
-      "name": "🌈爱看剧"
-    },
-    {
-      "url": "https://pan.shangui.cc/f/Bqoqcp/%E8%BF%BD%E5%89%A7%E5%AE%A2.json",
-      "name": "🌈追剧客"
+      "name": "🌈xiaosupai.github.io"
     },
     {
       "url": "https://ys.liuyunw.com/loading/img",
